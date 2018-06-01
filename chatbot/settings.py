@@ -26,7 +26,7 @@ SECRET_KEY = 'm7%giafkv4p5#tv!-mceuhoj01r41)+#)4v$h5d6j$mxa*nv+3'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'bqcostello.pythonanywhere.com'
+    'bqcostello.pythonanywhere.com',
 ]
 
 
