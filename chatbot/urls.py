@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
 
-urlpatterns = [https://unomaha.instructure.com/profile
+urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^helloWorld/', include('helloWorld.urls')),
 ]
