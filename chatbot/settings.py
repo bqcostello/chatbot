@@ -25,7 +25,9 @@ SECRET_KEY = 'm7%giafkv4p5#tv!-mceuhoj01r41)+#)4v$h5d6j$mxa*nv+3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'bqcostello.pythonanywhere.com'
+]
 
 
 # Application definition
