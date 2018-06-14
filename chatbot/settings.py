@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'chatApp.apps.ChatappConfig',
     'helloWorld',
     'django.contrib.admin',
     'django.contrib.auth',
