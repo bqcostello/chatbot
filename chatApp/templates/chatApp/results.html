@@ -1,0 +1,12 @@
+<h1>{{ question.question_text }} </h1>
+
+<ul>
+    {% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }}
+    <br> -- {{ choice.votes }} days of the year{{ choice.votes|pluralize }}<br><br></li>
+    {% endfor %}
+    <br>
+    <br>
+</ul>
+
+<a href="{% url 'chatApp:detail' question.id %}">Submit Productivity for Today</a>
